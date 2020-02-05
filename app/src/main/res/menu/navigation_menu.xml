@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single" android:id="@+id/toptop">
+        <item
+            android:id="@+id/notifications"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Notifications" />
+    </group>
+
+    <group android:checkableBehavior="single" android:id="@+id/top">
+        <item
+            android:id="@+id/createchild"
+            android:icon="@android:drawable/ic_dialog_dialer"
+            android:title="Register Child" />
+
+    </group>
+
+    <group android:id="@+id/s1">
+        <item
+            android:icon="@android:drawable/ic_input_get"
+            android:id="@+id/childs"
+            android:title="My Children" />
+    </group>
+
+    <group android:checkableBehavior="single" android:id="@+id/bottom">
+        <item
+            android:icon="@android:drawable/ic_dialog_info"
+            android:id="@+id/profile"
+            android:title="My Profile" />
+        <!--<item-->
+            <!--android:icon="@mipmap/ic_launcher"-->
+            <!--android:id="@+id/settings"-->
+            <!--android:title="Settings" />-->
+    </group>
+
+    <group android:checkableBehavior="single" android:id="@+id/third">
+
+        <item
+            android:icon="@android:drawable/ic_dialog_alert"
+            android:id="@+id/logout"
+            android:title="Logout" />
+    </group>
+
+    <group android:checkableBehavior="single" android:id="@+id/s3">
+
+        <item
+            android:enabled="false"
+            android:checkable="false"
+            android:title="HMB Version 1.0-Beta" />
+    </group>
+</menu>

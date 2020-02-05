@@ -1,0 +1,31 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="SpinnerThemeLight" >
+        <item name="android:colorBackground">@android:color/transparent</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="android:textColorSecondary">@android:color/white</item>
+        <item name="android:textColorTertiary">@android:color/white</item>
+        <item name="android:textColorPrimaryDisableOnly">@android:color/white</item>
+    </style>
+
+    <style name="NavigationTheme" parent="AppTheme">
+        <item name="listPreferredItemHeightSmall">40dp</item><!-- menu item height- vary as u need -->
+    </style>
+
+    <style name="splashScreenTheme" parent="AppTheme">
+        <item name="android:windowBackground">@drawable/splash_screen_background</item>
+        <item name="android:fitsSystemWindows">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+
+
+</resources>

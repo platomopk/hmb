@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#fff"
+    android:layout_marginBottom="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:id="@+id/mainLinear"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/notificationid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Notification ID"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:visibility="gone"
+        />
+
+    <TextView
+        android:id="@+id/notificationcreated"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="February 21, 2018 06:30pm"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        />
+
+    <TextView
+        android:id="@+id/notificationtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Title"
+        android:paddingRight="10dp"
+        android:textColor="@android:color/black"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        />
+
+    <TextView
+        android:id="@+id/notificationcontent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        />
+
+</LinearLayout>

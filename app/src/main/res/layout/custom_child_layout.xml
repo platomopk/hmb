@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:orientation="horizontal"
+    android:weightSum="100"
+    android:layout_marginBottom="5dp"
+    android:background="#fff"
+    android:id="@+id/notificationMainLayout"
+    >
+
+    <!--image-->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="35"
+        android:gravity="center"
+        >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/ic_launcher"
+            android:id="@+id/childimage"
+            android:scaleType="centerInside"
+            />
+    </LinearLayout>
+
+    <!--content-->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="55"
+        android:orientation="vertical"
+        android:weightSum="100"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="50"
+            android:orientation="vertical"
+            android:gravity="top"
+            android:paddingTop="5dp"
+            >
+            <TextView
+                android:id="@+id/childID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                android:text="ID"
+                android:textAllCaps="true"
+                android:paddingLeft="5dp"
+                android:visibility="gone"
+                />
+            <TextView
+                android:id="@+id/childname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:textColor="@android:color/black"
+                android:text="Name"
+                android:textAllCaps="true"
+                android:paddingLeft="5dp"
+                />
+            <TextView
+                android:id="@+id/childcreated"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:textAppearanceSmall"
+
+                android:text="Feburary 15, 2017"
+                android:textAllCaps="false"
+                android:paddingLeft="5dp"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="50"
+            android:gravity="top"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:id="@+id/childcnic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:textAppearanceSmall"
+
+                android:text="CNIC"
+                android:paddingLeft="5dp"
+                />
+
+            <TextView
+                android:id="@+id/childgender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:textAppearanceSmall"
+
+                android:text="Gender"
+                android:paddingLeft="5dp"
+                />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <!--activated-->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="10"
+        android:gravity="center_horizontal"
+        android:background="#ffffff"
+        >
+
+        <FrameLayout
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            >
+            <ImageView
+                android:layout_marginTop="5dp"
+                android:layout_gravity="top|center_horizontal"
+                android:padding="3dp"
+                android:layout_width="20dp"
+                android:layout_height="25dp"
+                android:src="@drawable/close"
+                android:id="@+id/childdelete"
+                />
+            <ImageView
+                android:layout_marginBottom="5dp"
+                android:layout_gravity="bottom|center_horizontal"
+                android:padding="3dp"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@mipmap/ic_launcher"
+                android:id="@+id/childverified"
+                />
+        </FrameLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".login">
+
+    <include layout="@layout/header"></include>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!--main container-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+
+
+            <!--login-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                >
+
+                <TextView
+                    android:textColor="@android:color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Already a member? Sign In!"
+                    android:elegantTextHeight="true"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    />
+
+                <!--space-->
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Email"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    />
+
+                <EditText
+                    android:id="@+id/email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter Email"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:inputType="textEmailAddress"
+                    />
+
+                <!--space-->
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Password"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    />
+
+                <EditText
+                    android:id="@+id/password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter Password"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:inputType="textPassword"
+                    android:imeOptions="actionDone"
+                    />
+
+                <!--space-->
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"/>
+
+                <Button
+                    android:id="@+id/loginbtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Sign In"
+                    android:minHeight="40dp"
+                    android:textColor="@android:color/white"
+                    android:background="@color/colorPrimary"
+                    />
+
+            </LinearLayout>
+
+            <!--space-->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"/>
+
+
+
+            <!--sign up-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                >
+
+                <TextView
+                    android:textColor="@android:color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Join Us Parents!"
+                    android:elegantTextHeight="true"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    />
+
+                <!--space-->
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"/>
+
+                <Button
+                    android:id="@+id/registerparentsbtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Sign Up Now"
+                    android:minHeight="40dp"
+                    android:textColor="@android:color/white"
+                    android:background="@color/colorPrimary"
+                    />
+
+            </LinearLayout>
+
+            <!--space-->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"/>
+
+            <!--sign up-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                >
+
+                <TextView
+                    android:textColor="@android:color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Try driving with us!"
+                    android:elegantTextHeight="true"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    />
+
+                <!--space-->
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"/>
+
+                <Button
+                    android:id="@+id/registerdriversbtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Sign Up Now"
+                    android:minHeight="40dp"
+                    android:textColor="@android:color/white"
+                    android:background="@color/colorPrimary"
+                    />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"/>
+
+            </LinearLayout>
+
+            <!--forgot password-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                >
+
+                <TextView
+                    android:textColor="@android:color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Forgot your password?"
+                    android:elegantTextHeight="true"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    />
+
+                <!--space-->
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Recover Password"
+                    android:id="@+id/forgotbtn"
+                    android:minHeight="40dp"
+                    android:textColor="@android:color/white"
+                    android:background="@color/colorPrimary"
+                    />
+
+            </LinearLayout>
+
+            <!--space-->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="20dp"/>
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+    </ScrollView>
+
+
+
+</LinearLayout>

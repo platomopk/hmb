@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:keepScreenOn="true"
+    android:orientation="vertical"
+    tools:context=".driverhome">
+
+
+    <include layout="@layout/header" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:id="@+id/pickuphome"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/allborder"
+                android:elevation="1dp"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pickup (Home)"
+                    android:textAppearance="?android:textAppearanceLarge"
+                    android:textColor="@color/colorPrimary" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/dropoffhome"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/allborder"
+                android:elevation="1dp"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Dropoff (Home)"
+                    android:textAppearance="?android:textAppearanceLarge"
+                    android:textColor="@color/colorPrimary" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/pickupschool"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/allborder"
+                android:elevation="1dp"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pickup (School)"
+                    android:textAppearance="?android:textAppearanceLarge"
+                    android:textColor="@color/colorPrimary" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/dropoffschool"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/allborder"
+                android:elevation="1dp"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Dropoff (School)"
+                    android:textAppearance="?android:textAppearanceLarge"
+                    android:textColor="@color/colorPrimary" />
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

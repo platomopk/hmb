@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1001423161077",
+    "firebase_url": "https://haye-mere-bachay.firebaseio.com",
+    "project_id": "haye-mere-bachay",
+    "storage_bucket": "haye-mere-bachay.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1001423161077:android:25bcb30466664f90",
+        "android_client_info": {
+          "package_name": "com.devlabspakistan.hmb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1001423161077-fh6jpblc6nkfr7s1o6lc7bibhtrd8av3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.devlabspakistan.hmb",
+            "certificate_hash": "0070aef8149da63025e23bec55840cb7d8b45ffe"
+          }
+        },
+        {
+          "client_id": "1001423161077-en8lml12762or6cf65al47nr3km8lq9e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNCIplp2gFG2fzeLTXWR0mGn-cZFSddVw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1001423161077-en8lml12762or6cf65al47nr3km8lq9e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
